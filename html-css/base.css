@@ -1,0 +1,10 @@
+:root {
+  --logo-color: #3A404E;
+  --primary-color: #667085;
+  --second-color: #101828;
+  --highlight-color: #8E2424;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
