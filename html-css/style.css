@@ -7,29 +7,25 @@
   display: flex;
   justify-content: space-between;
 }
-
 .menu a {
   color: var(--primary-color);
   font-weight: 500;
   margin: 0 16px;
 }
-
 .menu-logo {
   display: flex;
   align-items: center;
   margin: 0 119px 0 0;
 }
-
 .menu-logo a {
   display: inline-block;
   margin: 0 0 0 8px;
   font-size: 1.2rem;
 }
-
-.menu-pages {
+.menu-pages, .menu-buttons {
   display: flex;
+  align-items: center;
 }
-
 .menu-buttons .signup {
   margin-left: 16px;
   color: #fff;
@@ -45,6 +41,7 @@
   margin: 96px auto 0;
 }
 .about-tag {
+  display: block;
   text-align: center;
   font-weight: 600;
   color: var(--highlight-color);
@@ -60,6 +57,35 @@
 .about-text {
   text-align: center;
   font-size: 1.25rem;
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+
+/* Metrics */
+.metrics {
+  margin: 100px 0 0;
+  padding: 0 calc(112px - 16px);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.metrics-card {
+  margin: 0 16px 20px;
+  width: 280px;
+}
+.metrics-card h2 {
+  font-size: 3.75rem;
+  font-weight: 600;
+  color: var(--highlight-color);
+  margin: 0 0 12px;
+}
+.metrics-card h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 0 0 8px;
+  color: var(--second-color);
+}
+.metrics-card p {
   line-height: 1.5;
   color: var(--primary-color);
 }
