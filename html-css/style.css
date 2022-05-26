@@ -89,3 +89,42 @@
   line-height: 1.5;
   color: var(--primary-color);
 }
+
+/* Jobs */
+.jobs {
+  margin: 100px 0 0;
+  padding: 0 112px;
+}
+.jobs-tag {
+  display: block;
+  font-weight: 600;
+  color: var(--highlight-color);
+  margin: 0 auto 16px;
+  padding: 4px 12px;
+  border-radius: 16px;
+  width: fit-content;
+  min-width: 125px;
+  background-color: var(--highlight-opacity-color);
+}
+.jobs-title {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin: 0 0 20px;
+  color: var(--second-color);
+}
+.jobs-text {
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: var(--primary-color);
+  margin: 0 0 64px;
+}
+.jobs-image-container {
+  width: 100%;
+}
+.jobs-image-container img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+}
