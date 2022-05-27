@@ -128,3 +128,40 @@
   width: auto;
   max-width: 100%;
 }
+.jobs-list {
+  padding: 0 224px;
+}
+.jobs-list-item {
+  margin: 64px 0 0;
+}
+.jobs-list-item h2 {
+  color: var(--second-color);
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0 0 32px;
+}
+.jobs-list-item-container {
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  padding: 24px 24px 28px;
+  margin: 24px 0 0;
+}
+.jobs-list-item-container:first-of-type {
+  margin: 0;
+}
+.jobs-list-item-container h3 {
+  color: var(--second-color);
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 0 0 32px;
+}
+.jobs-list-item-container p {
+  color: var(--primary-color);
+  display: flex;
+}
+.jobs-list-item-container p span {
+  display: block;
+}
+.jobs-list-item-container p span:first-of-type {
+  margin: 0 24px 0 0;
+}
