@@ -13,6 +13,15 @@
   </head>
 
   <body>
+    <!-- <form>
+      <input type="name" class="name" />
+      <input type="number" />
+      <input type="text" />
+      <button class="result">submit</button>
+    </form>
+    <p class="result"></p> -->
+
+
     <script>
       // Dia 1
       console.log( false == '0' );
@@ -50,6 +59,27 @@
       } else {
         console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')
       }
+
+      // Dia 2
+      const name = prompt("Qual o seu nome?")
+      const age = prompt("Quantos anos você tem?")
+      const lang = prompt("Qual linguagem de programação você está estudando?")
+      const msg = `Olá ${name}, você tem ${age} anos e já está aprendendo ${lang}!`
+
+      alert(msg);
+
+      const like = prompt(`Você gosta de estudar ${lang}? Responda com o número 1 para SIM ou 2 para NÃO.`)
+
+      if(like == 1) {
+        alert('Muito bom! Continue estudando e você terá muito sucesso.');
+      }
+      if(like == 2) {
+        alert('Ahh que pena... Já tentou aprender outras linguagens?');
+      }
+
+      // const name = document.getElementsByClassName('name')
+      // const result = document.getElementsByClassName('result')
+      // result.append(name)
 
     </script>
 
